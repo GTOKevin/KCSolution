@@ -1,0 +1,125 @@
+.producto-selector {
+  margin-bottom: 1rem;
+}
+
+.selector-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.selector-icon {
+  color: #6b7280;
+}
+
+.selector-error {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: #ef4444;
+}
+
+.react-select-container {
+  font-size: 0.875rem;
+}
+
+.react-select-container .react-select__control {
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  min-height: 2.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transition: all 0.15s ease-in-out;
+}
+
+.react-select-container .react-select__control:hover {
+  border-color: #9ca3af;
+}
+
+.react-select-container .react-select__control--is-focused {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.react-select-container .react-select__value-container {
+  padding: 0.25rem 0.75rem;
+}
+
+.react-select-container .react-select__placeholder {
+  color: #9ca3af;
+}
+
+.react-select-container .react-select__single-value {
+  color: #111827;
+}
+
+.react-select-container .react-select__menu {
+  border-radius: 0.375rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+}
+
+.react-select-container .react-select__option {
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
+
+.react-select-container .react-select__option--is-focused {
+  background-color: #f3f4f6;
+}
+
+.react-select-container .react-select__option--is-selected {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.react-select-container .react-select__loading-indicator {
+  color: #6b7280;
+}
+
+.react-select-container .react-select__dropdown-indicator {
+  color: #6b7280;
+  padding: 0.5rem;
+}
+
+.react-select-container .react-select__dropdown-indicator:hover {
+  color: #374151;
+}
+
+.producto-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.producto-option-main {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  flex: 1;
+}
+
+.producto-option-icon {
+  color: #667eea;
+  flex-shrink: 0;
+}
+
+.producto-option-name {
+  color: #374151;
+  flex: 1;
+}
+
+.producto-option-price {
+  font-size: 14px;
+  font-weight: 600;
+  color: #059669;
+  margin-left: 1rem;
+  flex-shrink: 0;
+}
+
+.has-error .react-select__control {
+  border-color: #ef4444 !important;
+}
